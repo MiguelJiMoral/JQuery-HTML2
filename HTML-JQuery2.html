@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Jquery2 </title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css2.css" type="text/css">
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="js1.js"></script>
+
+    </head>
+    <body>
+        <h1 align="Center">
+            Calculadora Basica
+        </h1>
+        <hr>
+        <br>
+        <br>
+        <div class="Datos">
+            <form action="#">
+                <label for="Primer Numero"> Ingresa tu primer numero</label>
+                <input type="text" name="var1" id="var1" placeholder="Aqui va tu primer numero UwU">
+                <br>
+                <br>
+                <label for="Segundo Numero">Ingresa tu segundo numero</label>
+                <input type="text" name="var2" id="var2" placeholder="Aqui va tu segundo numero UwU">
+                <br>
+                <br>
+                <label for="Signo de la Operacion">Ingresa la Operacion</label>
+                <select name="Operadores" id="op">
+                    <option value="suma">+</option>
+                    <option value="resta">-</option>
+                    <option value="multiplicacion">*</option>
+                    <option value="division">/</option>
+                </select>
+                <input type="text" name="res" id="res" placeholder="Resultado">
+            </form>
+            <br>
+                <center>
+                <input id="enviar" class="btn btn-outline-primary" type="submit" value="Realizar Operacion">
+                </center>
+            </div>
+    </body>
+</html>
