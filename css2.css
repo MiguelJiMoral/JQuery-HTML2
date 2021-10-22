@@ -1,0 +1,9 @@
+*{
+    background-color: lemonchiffon;
+}
+.Datos{
+    
+    position: absolute;
+    left: 37%;
+    border-style: groove;
+}
